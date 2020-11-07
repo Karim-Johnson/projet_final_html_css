@@ -1,0 +1,246 @@
+header{
+	
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	background-color:orange;
+	padding: 10px 1px 0px 1px;
+	height: 80px;
+	margin-right:80px;
+	margin-left:80px;
+	 
+	}
+
+body{
+	/*background-image: url(neige.png);
+	text-align: center;*/
+	background-color:white;
+	background-size: contain;
+    background-repeat: no-repeat;
+	font-size:15px;
+	font-family:Comic Sans MS, Arial, Arial Black ;
+}
+
+nav:nth-child(2){
+	list-style: none;
+	align-self: flex-end;
+	
+}
+
+
+li {
+   display: inline-block;
+    padding: 0 50px;
+} 
+    
+ a:hover {
+   color: white;
+}
+   
+#partage{   
+	
+		text-align: right;
+   
+}
+   
+#conteneur_1{
+	display:flex;
+	flex-direction: row;
+	/*padding: 0px 0px 0px 10px;
+	text-align: center;
+	/*justify-content: space-around;
+	 margin: 1px 0px 0px 10px;
+	 width: 1200px;  */ 
+} 
+   
+   
+   #bloc4{
+	flex-direction: row;
+     display: flex;
+     justify-content: space-around;
+     
+ }
+ 
+ #bloc2 {
+    
+    margin-left:  90px ;
+    margin-right: : 150px ;
+    margin-top: 90px;
+    font-size:19px;
+}
+   
+#im1 {
+	 margin-left:  20px ;
+	 padding: 0px 0px 0px 60px;
+	/*width: 500px;
+	height: 150px;*/
+
+
+}
+
+.exemple{
+	 width:120px;
+   clip-path:ellipse(50% 50%)
+   
+}
+
+#photo{
+ 
+	margin-left:  70px ;
+}
+
+#esp1{
+	flex-direction: row;
+     display: flex;
+    
+     
+   }
+
+#esp{
+
+	margin-left:  70px ;
+    
+	 color:rgb(108, 49, 108);
+}
+
+
+#form3{
+	border:1px solid;
+	color:black;
+	width: 200px;
+	border-radius:15px;
+	padding: 0px 0px 50px 0px;
+	margin-bottom:20px;
+	margin-left:150px;
+	background-color:white;
+	text-align:center;
+	
+}
+
+span{
+	color:grey;
+	
+}
+
+
+#form1{
+	border:1px solid;
+	color:black;
+	width: 300px;
+	border-radius:15px 15px;
+	padding: 0px 0px 200px 0px;
+	height:100px;
+}
+
+#bloc3{
+	font-size:30px;
+border-bottom:1px solid;
+border-top:1px solid;
+color: rgb(143,143,143);
+padding:10px;
+margin: 0px 390px 0px 80px;
+}
+
+ 
+ 
+
+ .esp2{
+	text-align: center;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+#graph{
+	text-align: center;
+	
+	margin-left:30px;
+}
+
+
+#mon_nom{
+	margin-top: 1px ;
+}
+
+#image_cv{
+margin-top: 1px ;
+
+}
+
+
+
+
+ 
+ #esp3{
+ 	margin: 1px 0px 0px 150px;
+ }
+
+
+#envoyer {
+    background: white;
+    border:1px solid;
+     border-radius: 10px;
+     margin: 10px;
+     
+     }
+
+#gra{
+	border-bottom:1px solid;
+	background-color:grey;
+}
+
+#form{
+      width: 200px;
+      background-color: grey;
+      margin:auto;
+      padding: 10px 0px 10px 0px;
+      text-align:center;
+      border-radius:15px 15px 0px  0px;
+      height:10px;
+
+ }
+
+
+
+#form1{
+	border:1px solid;
+	color:black;
+	width: 200px;
+	border-radius:15px;
+	padding: 0px 0px 90px 0px;
+	margin-bottom:20px;
+	background-color:white;
+	margin-right:40px;
+	text-align:center;
+	
+	
+}
+
+#form2{
+	border:1px solid;
+	color:black;
+	width: 200px;
+	border-radius:15px;
+	padding: 0px 0px 15px 0px;
+	margin-bottom:20px;
+	margin-right:20px;
+	background-color:white;
+	
+	
+}
+
+
+
+
+
+
+
+footer{
+	background-color:orange;
+	text-align:center;
+	padding: 10px 1px 0px 1px;
+	height: 80px;
+	margin-right:80px;
+	margin-left:80px;
+}
